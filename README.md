@@ -7,6 +7,9 @@ It also includes a custom launch package `ugv_mavros` for connecting to a **Pixh
 ---
 ## 🖼️ System Architecture
 
+![ROS2 MAVROS Pixhawk Diagram](ros2_mavros_pixhawk.png)
+
+
 ---
 
 ## 🛠️ Requirements
