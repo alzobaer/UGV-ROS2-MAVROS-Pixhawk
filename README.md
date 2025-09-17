@@ -7,21 +7,6 @@ It also includes a custom launch package `ugv_mavros` for connecting to a **Pixh
 ---
 ## 🖼️ System Architecture
 
-![ROS2 MAVROS Pixhawk Diagram](ros2_mavros_pixhawk.png)
-
-
-```mermaid
-flowchart LR
-    subgraph ROS2 [Raspberry Pi 5 - ROS 2 Jazzy]
-        A[ROS 2 Nodes] -->|/mavros topics & services| B[MAVROS Node]
-    end
-
-    B -->|MAVLink Serial| C[Pixhawk (CubeOrange+)]
-    C -->|PWM/RC Out| D[UGV Motors/Servos]
-    C -->|Sensor Data| B
-    B -->|ROS 2 Topics| A
-```
-
 ---
 
 ## 🛠️ Requirements
