@@ -1,0 +1,48 @@
+# ROS 2 / Colcon build artifacts
+/build/
+/install/
+/log/
+
+# ROS 2 workspace overlays
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Ignore generated diagram
+ros2_ws/ros2_mavros_pixhawk.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# CMake / Colcon generated files
+CMakeLists.txt.user
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Testing/
+CTestTestfile.cmake
+Makefile
+*.cmake
+*.swp
+
+# Colcon metadata
+.colcon_local_setup*
+colcon_command_prefix.sh
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# System/OS files
+.DS_Store
+Thumbs.db
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
+*.swp
